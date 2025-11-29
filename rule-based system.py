@@ -121,7 +121,7 @@ st.caption("Enter applicant data, edit rules (optional), and evaluate. Designed 
 with st.sidebar:
     st.header("Applicant Facts")
     cgpa = st.number_input("CGPA", min_value=0.0, max_value=4.0, step=0.01, value=4.0)
-    co_curricular_score = st.number_input("Co_curricular Score", min_value=0, max_value=100, step=0.1, value=100)
+    co_curricular_score = st.number_input("Co_curricular Score", min_value=0, max_value=100, step=1, value=100)
     family_income = st.number_input("Family Income", min_value=0, step=100, value=3500)
     disciplinary_actions = st.number_input("Disciplinary Actions", min_value=0, step=1, value=2)
     age = st.number_input("Age", min_value=18, max_value=100, step=1, value=30)
