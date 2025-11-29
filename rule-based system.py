@@ -115,7 +115,7 @@ def run_rules(facts: Dict[str, Any], rules: List[Dict[str, Any]]) -> Tuple[Dict[
 # 2) Streamlit UI
 # ----------------------------
 st.set_page_config(page_title="Rule-Based System (Streamlit)", page_icon="", layout="wide")
-st.title("Simple Rule-Based System (Scholarship Eligibility Demo)")
+st.title("Scholarship Eligibility Evaluator")
 st.caption("Enter applicant data, edit rules (optional), and evaluate. Designed to be a small, deployable example.")
 
 with st.sidebar:
